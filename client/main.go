@@ -4,7 +4,7 @@ package main
 import (
 	"log"
 
-	"github.com/recipe.ofmine.org/recipe_server/api"
+	"github.com/uhdang/recipe_server/api"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

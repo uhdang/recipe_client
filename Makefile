@@ -1,5 +1,5 @@
 CLIENT_OUT := "bin/client"
-PKG := "github.com/recipe.ofmine.org/recipe_client"
+PKG := "github.com/uhdang/recipe_client"
 CLIENT_PKG_BUILD := "${PKG}/client"
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)
 
